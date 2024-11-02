@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru,en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=domino_mask" />
+    <title>Pancir</title>
+</head>
+<body>
+
+    <div id="consentModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeModal">&times;</span>
+            <h2>Согласие на обработку данных.</h2>
+            <p>Мы собираем вашу конфидециальную информацию для улучшения нашего сервиса. Вы имеете право на отказ. Согласно закону РФ «О персональных данных» (ФЗ-152), вы можете не предоставлять свои данные. От вашего местоположения зависит язык всего текста. Так же мы собираем данные в своих целях.</p>
+            <div class="button-margin">
+                <button class="button-modal" id="acceptConsent">Согласен</button>
+                <button class="button-modal" id="declineConsent">Не согласен</button>
+            </div>
+        </div>
+    </div>
+
+<header class="header">
+    <div class="container">
+        <div class="logo">  
+            <h1>Pancir</h1>
+        </div>
+        <div class="burger" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+        </div>
+        <nav class="menu">
+            <ul class="menu-list">
+                <li class="menu-item"><a href="#about-us-anchor">About us</a></li>
+                <li class="menu-item"><a href="OurProjects.html">Our projects</a></li>
+                <li class="menu-item"><a href="services.html">Services</a></li>
+                <li class="menu-item"><a href="blacklist.html">Blacklist</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<div class="background-second-main-class">
+    <video src="video/background-space.mp4" type="video/mp4" autoplay muted loop></video>
+    <div class="effect"></div>
+    <div class="background-content">
+        <h1>Pancir</h1>
+        <p>Powerful, mysterious group, strategists influencing the world, instilling fear.</p>
+    </div>
+</div>
+
+<section class="info-about-pancir">
+    <div class="text-pancir">
+        <h2 id="about-us-anchor">Who are Pancir?</h2>
+        <p class="plus-size-content">The "Pancir" group is a mysterious and powerful force that evokes both interest and fear. They possess significant resources that allow them to act independently and effectively. Members of the group may be highly educated and strategically minded, making their actions well thought out. Their location and numbers remain unknown, creating an atmosphere of anxiety. The motives and goals of the group are unclear, making their actions potentially dangerous. The group may have connections with various structures, enhancing their positions. Thus, the "Pancir" is a mysterious force capable of exerting significant influence on society.</p>
+        <h2>What are our Target?</h2>
+        <p class="plus-size-content">The goals and motivations of the "Pancir" group may be diverse and depend on their ideology and strategy. Here are several possible objectives for which they might fight: Power and influence: The "Pancir" may seek to expand their influence in the political or economic sphere to control key resources or participate in decision-making. Protection of interests: The group may act in the interests of a specific group of people, corporate interests, or even a nation, defending their rights and resources. Ideological goals: They may have ideological foundations, such as fighting for certain social, cultural, or religious values, which could lead to conflicts with other groups. Economic gain: The group may participate in the shadow economy, seeking profit through illegal or semi-legal activities. Social change: The "Pancir" may aim for reforms and changes in society, trying to influence public opinion and bring certain issues to the forefront. Network building: They may attempt to create a network of allies and supporters to strengthen their positions and capabilities. These goals may overlap, and depending on the circumstances, the "Pancir" may adapt their strategy to achieve their interests.</p>
+        <h2>Should we be afraid?</h2>
+        <p class="plus-size-content">We are an independent group of individuals who work strictly in our own interests.</p>
+    </div>
+    <img class="under" src="image/photo_2024-10-28_14-06-35.png" alt="Background Image">
+</section>
+
+<footer class="contact-us">
+	<div class="contact-us-text">
+        <span>contact us - ?
+            <span class="material-symbols-outlined">domino_mask</span>
+        </span>
+    </div>
+</footer>
+
+<script src="js/index.js"></script>
+
+</body>
+</html>

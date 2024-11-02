@@ -1,0 +1,110 @@
+@media (max-width: 1300px) {
+    .menu-list {
+        padding: 3vw 2vw;
+        gap: 4vw;
+    }
+    
+}
+
+@media (min-width: 1300px) {
+    .menu-list {
+        padding: 3vw 2vw;
+        gap: 4vw;
+    }
+}
+
+@media (max-width: 1024px) {
+    .menu-list {
+        flex-direction: row;
+        gap: 2vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .header .container {
+        padding: 1vw 1vw;
+    }
+
+    .menu-item a {
+        font-size: 1.2rem;
+    }
+
+    .menu-list {
+        display: none; 
+        flex-direction: column;
+        position: absolute;
+        top: 60px; 
+        right: 0;
+        background-color: black;
+        width: 100%;
+        padding: 20px;
+        z-index: 10;
+        opacity: 0;
+        transform: translateY(-20px); 
+        transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out; 
+    }
+
+    
+    .menu-list.active {
+        display: flex; 
+        opacity: 1; 
+        transform: translateY(0); 
+    }
+
+    .menu-item {
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .burger {
+        display: block;
+        padding: 10px;
+        margin: 0px 10px;
+    }
+
+    .logo {
+        flex: 1; 
+        margin-left: 10px;
+    }
+    .button-to-tg h2 {
+        font-size: 0.8em;
+        margin: 10px 0;
+    }
+    .text-services p {
+        margin: 18px 0;
+        padding-left: 8px;
+        line-height: 1.3em;
+    }
+    
+    .text-services ul {
+        padding-left: 40px;
+        line-height: 1.5em;
+    }
+    button {
+        border: 1px solid  rgba(255, 255, 255, 0.750);
+        border-radius: 23px;
+        padding: 8px;
+        color: black;
+        transition-duration: 400ms;
+        font-size: 15px;
+    }
+    
+}
+
+@media (max-width: 480px) {
+    .menu-item a {
+        font-size: 1rem;
+    }
+    button {
+        border: 1px solid  rgba(255, 255, 255, 0.750);
+        border-radius: 15px;
+        padding: 8px;
+        color: black;
+        transition-duration: 400ms;
+        font-size: 15px;
+    }
+    .button-under {
+        margin: 10px;
+    }
+
+}

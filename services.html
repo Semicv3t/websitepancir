@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/services.css">    
+    <link rel="stylesheet" href="css/mediaservices.css">    
+    <title>Services</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>Pancir</h1>
+            </div>
+    
+            <div class="burger" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </div>
+    
+            <nav class="menu">
+                <ul class="menu-list">
+                    <li class="menu-item"><a href="index.html">Home</a></li>
+                    <li class="menu-item"><a href="OurProjects.html">Our projects</a></li>
+                    <li class="menu-item"><a href="blacklist.html">Blacklist</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <img class="under" src="image/photo_2024-10-28_14-06-35.png" alt="Background Image">
+
+    <section class="container">
+        <section class="h1-text">
+            <h1>Services</h1>
+        </section>
+        
+        <div class="text-services">
+            <h2>We offer you:</h2>
+            <ul class="decoration-services">
+                <li><p>Create a personal VPN for you</p></li>
+                <li><p>Create a website</p></li>
+                <li><p>Create a Telegram bot</p></li>
+                <li><p>Training in various programming languages</p></li>
+                <li><p>Get data about a person</p></li>
+                <li><p>Supervision of IT training</p></li>
+            </ul>
+            <section class="button-under">
+                <div class="button-to-tg">
+                    <h2 class="text-left-button">To apply for the service, click on the button</h2>
+                    <button id="tg" onclick="openTelegramBot()">Tap</button>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <script src="js/services.js"></script>
+</body>
+</html>
